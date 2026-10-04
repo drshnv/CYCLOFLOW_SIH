@@ -19,11 +19,15 @@
 ## 🏗️ Architecture & Technology Stack
 
 ```
-c:/SIH_PROJECT/
+CYCLOFLOW_SIH/
 ├── backend/                  # FastAPI AI Inference Server (Python 3.14)
 │   ├── server.py             # REST API endpoints & CORS middleware
 │   ├── ai_engine.py          # Multi-spectral CV, Dvorak CNN, Hough Eye Localization
-│   └── benchmark_data.py     # Curated historical storms (Amphan, Biparjoy, Fani, Tauktae)
+│   └── benchmark_data.py     
+│   └── cyclone_catalog.py    
+│   └── ml_models.py     
+│   └── netcdf_processor.py    
+│   └── server.py     
 ├── frontend/                 # React 19 + TypeScript + Vite Dashboard
 │   ├── src/
 │   │   ├── components/
